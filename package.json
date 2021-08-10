@@ -2,6 +2,11 @@
   "name": "next-ts-tailwind-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Satyam Bansal",
+    "email": "satyamsgsits1994@gmail.com",
+    "website": "https://www.satyambnsal.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,8 +20,11 @@
   },
   "devDependencies": {
     "@types/react": "17.0.16",
+    "autoprefixer": "^10.3.1",
     "eslint": "7.32.0",
     "eslint-config-next": "11.0.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7",
     "typescript": "4.3.5"
   }
 }
